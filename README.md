@@ -1,5 +1,5 @@
 # Tela-Login 💻
-📌 Criando uma TELA DE LOGIN seguindo, o que foi proposto pela faculdade e seguindo a biblioteca Tkinter
+📌 Criando uma TELA DE LOGIN seguindo o que foi proposto pela faculdade e seguindo a biblioteca Tkinter
 
 ## Objetivo 🎯
 Gerar uma tela de login que acuse Erro de login e receba dados dos Usuários
