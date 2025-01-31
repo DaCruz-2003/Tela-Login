@@ -3,32 +3,32 @@ from tkinter import *
 class Principal:
     def __init__(self, master=None):
         self.fontePadrao = ("Arial","10")
-        #Definindo um Container Pai
+#Definindo um Container Pai
         self.Container1 = Frame(master)
         self.Container1["pady"] = 10
         self.Container1["bg"] = "light blue"
         self.Container1.pack()
-        #Criando um Container NOME
+#Criando um Container NOME
         self.Container2 = Frame(master)
         self.Container2["padx"] = 20
         self.Container2["bg"] = "light blue"
         self.Container2.pack()
-        #Criando um Container SENHA
+#Criando um Container SENHA
         self.Container3 = Frame(master)
         self.Container3["padx"] = 20
         self.Container3["bg"] = "light blue"
         self.Container3.pack()
-        #Criando um Container para o botão AUTENTICAR e Mensagem
+#Criando um Container para o botão AUTENTICAR e Mensagem
         self.Container4 = Frame (master)
         self.Container4["pady"] = 20
         self.Container4["bg"]="light blue"
         self.Container4.pack()
-        #Titulo
+#Titulo
         self.titulo = Label(self.Container1, text="Dados do Usuário")
         self.titulo["font"] = ("Arial", "10", "bold")
         self.titulo["bg"] = "light blue"
         self.titulo.pack()
-        #Input_Nome
+#Input_Nome
         self.nomeLabel = Label(self.Container2, text=" Nome:", font=self.fontePadrao)
         self.nomeLabel["bg"] = "light blue"
         self.nomeLabel.pack(side=LEFT)
@@ -37,7 +37,7 @@ class Principal:
         self.nome["width"] = 30
         self.nome["font"] = self.fontePadrao
         self.nome.pack(side=LEFT)
-        #Input_Senha
+#Input_Senha
         self.senhaLabel = Label(self.Container3, text=" Senha:", font=self.fontePadrao)
         self.senhaLabel["bg"] = "light blue"
         self.senhaLabel.pack(side=LEFT)
@@ -46,7 +46,7 @@ class Principal:
         self.senha["font"]= self.fontePadrao
         self.senha["show"]= "*"
         self.senha.pack(side=LEFT)
-        #Autenticação e Mensagem
+#Autenticação e Mensagem
         self.autenticar = Button(self.Container4)
         self.autenticar["text"] = "AUTENTICAR"
         self.autenticar["font"] = ("Calibri", "10", "bold")
@@ -57,7 +57,7 @@ class Principal:
         self.mensagem = Label(self.Container4, text="", font=self.fontePadrao)
         self.mensagem["bg"] = "light blue"
         self.mensagem.pack()
-        #Sair
+#Sair
         self.sair = Button()
         self.sair["text"] = "SAIR"
         self.sair["font"] = ("Calibri", "10", "bold")
@@ -80,7 +80,7 @@ class Principal:
             self.nome.delete(0,END)
             self.nome.focus()
 
-
+#GUI
 tela= Tk()
 tela.title ("TELA DE LOGIN")
 tela ["bg"] = "light blue"
