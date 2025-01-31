@@ -16,4 +16,18 @@ Para realizar o trabalho foi utilizado as seguintes ferramentas:<br>
 ✏️ Após o primeiro COMMIT(EstruturaInicial), já é possivel ter uma GUI contendo o 'Titulo' e a 'Cor de BackGround desejada' <br>
 EstruturaInicial:<p align="center">
     <img alt="EstruturaInicial" title="EstruturaInicial" src="https://github.com/DaCruz-2003/Tela-Login/blob/main/IMG/EstruturaInicial.png" width="500px" />
-</p>
+</p
+    
+✏️ Após o termino, já é possivel ter a autenticação, erro e tela de login completa <br>
+Tela de Login completa:<p align="center">
+  <img alt="EstruturaFinal" title="EstruturaFinal" src="https://github.com/DaCruz-2003/Tela-Login/blob/main/IMG/EstruturaFinal.png" width="500px" />
+</p
+    
+Autenticação:<p align="center">
+  <img alt="Autenticacao" title="Autenticacao" src="https://github.com/DaCruz-2003/Tela-Login/blob/main/IMG/TelaAutenticada.png" width="500px" />
+</p
+
+Erro (Apaga o Usuário e senha digitado):<p align="center">
+  <img alt="Autenticacao" title="Autenticacao" src="https://github.com/DaCruz-2003/Tela-Login/blob/main/IMG/TelaErro.png" width="500px" />
+</p
+    
